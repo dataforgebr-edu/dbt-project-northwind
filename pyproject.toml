@@ -1,0 +1,17 @@
+[project]
+name = "dbt-project-northwind"
+version = "0.1.0"
+description = "Projeto de dbt usando o dataset northwind"
+authors = [
+    {name = "RodrigoSilva1989",email = "dataforge.br@gmail.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-core (>=1.11.11,<2.0.0)",
+    "dbt-postgres (>=1.10.0,<2.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
